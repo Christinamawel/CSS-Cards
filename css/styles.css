@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  background-color: rgb(240, 251, 240);
+  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+#container {
+  max-width: 50em;
+  margin: 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card-content {
+  width: 15em;
+  margin: 0 auto;
+  height: 80%;
+}
+
+.card-img {
+  max-width: 15em;
+  padding-top: 1em;
+}
+
+.card {
+  min-width: 15em;
+  flex-grow: 1;
+  background-color:rgb(35, 46, 35);
+  color:rgb(240, 251, 240);
+  border-radius: .5em;
+  box-shadow: .3em .3em .5em rgb(30, 32, 30);
+}
+
+p {
+  padding-top: 1em;
+}
+
+.card-head {
+  background-color:white;
+  width: 100%;
+  color:rgb(30, 32, 30);
+  border-radius: .5em .5em 0 0;
+  padding-top: .5em;
+}
+
+button {
+  border: none;
+  background-color:rgb(240, 251, 240);
+  color:rgb(30, 32, 30);
+  padding: .5em;
+  width: 50%;
+  border-radius: .5em;
+  margin: 1em auto;
+}
+
+button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-author {
+  border-top:rgb(240, 251, 240) dashed .1em;
+  border-bottom: rgb(240, 251, 240) dashed .1em;
+  text-align: left;
+  padding-bottom: 1.2em;
+  margin: 0 1em;
+}
+
+h1 {
+  padding-top: .2em;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#head-h2 {
+  padding-bottom: .5em;
+}
